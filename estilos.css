@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/FOTO_2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+}
+header{
+    height: 140px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 1px;
+    background-color: rgb(98, 189, 128);
+    opacity: 70%;
+}
+.logo{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.primercuadro{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.primercuadro h1{
+font-size: 45px;
+color: white;
+}
+.segundocuadro,
+.tercercuadro,
+.cuartocuadro{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+.segundocuadro{
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.tercercuadro{
+    margin-left: 800px;
+    margin-top: 60px;
+}
+.cuartocuadro{
+    margin-left: 1000px;
+    margin-top: 60px;
+}
+.segundocuadro h1 a,
+.tercercuadro h1 a,
+.cuartocuadro h1 a{
+    text-decoration: none;
+    color: black;
+}
+.segundocuadro h1 a:hover,
+.tercercuadro h1 a:hover,
+.cuartocuadro h1 a:hover{
+    color: aliceblue;
+}
+#Texto1,
+#Texto2,
+#Texto3
+footer{
+    height: 300px;
+    width: 1400px;
+}
+#Texto1 .img3 img{
+    width: 30%;
+    height: 300px;
+    opacity: 70%;
+}
+#Texto2 .img4 img{
+    width: 30%;
+    height: 300px;
+    opacity: 70%;
+    margin-left: 950px;
+}
+#Texto3 .img5 img{
+    width: 30%;
+    height: 300px;
+    opacity: 70%;
+}
+footer #IMG6 img{
+    width: 30%;
+    height: 300px;
+    opacity: 70%;
+    margin-left: 950px;
+}
+#Texto1 .txt3{
+    width: 700px;
+    margin-top: 25px;
+    margin-left: 0;
+}
+#Texto1 .txt3 h1{
+    font-size: 20px;
+    text-align: center;
+    color: white
+
+}
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    body{
+        background-size: 2000px;
+    }
+    header{
+        height: 80px;
+        width: 637px;
+    }
+    .logo{
+        height: 65px;
+        width: 65px;
+    }
+    .logo img{
+        height: 65px;
+        width: 65px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .primercuadro{
+        height: 65px;
+        width: 65px;
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+    .primercuadro h1{
+    font-size: 35px;
+    }
+    .segundocuadro,
+    .tercercuadro,
+    .cuartocuadro{
+        height: 65px;
+        width: 65px;
+    }
+    .segundocuadro{
+        margin-left: 290px;
+        margin-top: 23px;
+    }
+    .tercercuadro{
+        margin-left: 440px;
+        margin-top: 23px;
+    }
+    .cuartocuadro{
+        margin-left: 520px;
+        margin-top: 23px;
+    }
+    .segundocuadro h1 a,
+    .tercercuadro h1 a,
+    .cuartocuadro h1 a{
+        font-size: 17px;
+    }
+    #Texto1,
+    #Texto2,
+    #Texto3
+    footer{
+        height: 154px;
+        width: 640px;
+    }
+    #Texto1 .img3 img{
+        width: 150px;
+        height: 150px;
+    }
+    #Texto2 .img4 img{
+        width: 150px;
+        height: 150px;
+        margin-left: 488px;
+    }
+    #Texto3 .img5 img{
+        width: 150px;
+        height: 150px;
+    }
+    footer #IMG6 img{
+        width: 150px;
+        height: 150px;
+        margin-left: 488px;
+    }
+    #Texto1 .txt3{
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    #Texto1 .txt3 h1{
+        font-size: 10px;
+    }
+
+
+
+}
+@media all and (max-width: 600px) {
+    body{
+        background-image: url(img/FOTO_2.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1500px;
+    }
+    header{
+        height: 70px;
+        width: 800px;
+    }
+    .logo img{
+        height: 70px;
+        width: 70px;
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+    .primercuadro{
+        height: 70px;
+        width: 70px;
+        margin-left: 100px;
+        margin-top: 27px;
+    }
+    .primercuadro h1{
+    font-size: 18px;
+    }
+    .segundocuadro,
+    .tercercuadro,
+    .cuartocuadro{
+        height: 70px;
+        width: 70px;
+    }
+    .segundocuadro{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-size: 8px;
+    }
+    .tercercuadro{
+        margin-left: 330px;
+        margin-top: 30px;
+        font-size: 8px;
+    }
+    .cuartocuadro{
+        margin-left: 380px;
+        margin-top: 30px;
+        font-size: 8px;
+    }
+    #Texto1,
+    #Texto2,
+    #Texto3
+    footer{
+        height: 200px;
+        width: 400px;
+    }
+    #Texto1 .img3 img{
+        width: 30%;
+        height: 150px;
+        opacity: 70%;
+    }
+    #Texto2 .img4 img{
+        width: 30%;
+        height: 150px;
+        opacity: 70%;
+        margin-left: 362px;
+    }
+    #Texto3 .img5 img{
+        width: 30%;
+        height: 150px;
+        opacity: 70%;
+    }
+    footer #IMG6 img{
+        width: 30%;
+        height: 150px;
+        opacity: 70%;
+        margin-left: 362px;
+    }
+    #Texto1 .txt3{
+        width: 350px;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+    #Texto1 .txt3 h1{
+        font-size: 10px;
+       padding-top: 32px;
+    }
+}
